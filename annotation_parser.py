@@ -80,5 +80,3 @@ for n, (token_file, label_file) in enumerate(zip(l1, l2)):
                     json_str = json.dumps(write_document)
                     wf.write(str(json_str))
                     wf.write('\n')
-  
-    print('---------------------------------------------------------------')
